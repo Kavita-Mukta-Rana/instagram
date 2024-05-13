@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: right;
+    /* making parent flex so element inside cover content till content */
+    
+}
+
+form
+{
+
+    /* background-color: red; */
+    width: 30%;
+    /* padding: 25px 40px; */
+    box-sizing: border-box;
+    /* including padding 30% */
+border: 2px solid rgb(224, 217, 217);
+    padding: 13px 40px 20px 40px;
+    margin-top: 127px;
+    margin-right: 214px;
+    box-shadow: 3px 5px 18px -1px gray;
+   
+}
+
+img,input,a,button
+{
+    display: block;
+}
+
+img{
+    width: 70%;
+    height: 190px;
+    margin: auto;
+   
+}
+
+
+input
+{
+    width: 100%;
+    /* width: 107%; */
+    height: 52px;
+    margin-top: 5px;
+padding-left: 10px;
+box-sizing: border-box;
+border-radius: 9px ;
+border: 2px solid rgba(193, 191, 191, 0.728);
+}
+button
+{
+    width: 100%;
+    /* height: 30px; 
+    */
+    height: 52px;
+    /* background-color: rgba(134, 191, 238, 0.779); */
+    background-color:rgb(24, 119, 242);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+
+}
+
+hr
+{
+    margin-top: 40px;
+}
+
+a{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration:  none;
+    margin-bottom: -23px;
+}
+h4{
+    position: absolute;
+    top: -30px;
+    left: 126px;
+   
+    background-color: white;
+    padding: 0px 10px;
+}
+
+#or-cont
+{
+position: relative;
+height: 30px;
+
+}
+
+#create
+{
+    width: 67%;
+    /* height: 30px; 
+    */
+    height: 52px;
+    /* background-color: rgba(134, 191, 238, 0.779); */
+    background-color: rgb(18, 171, 18);
+    border-radius: 5px;
+    margin-top: -2px;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    margin-left: 17%;
+}
+
+#lala
+{
+    margin-top: 180px;
+    margin-right: 80px;
+
+
+}
+
+#logo
+{
+    font-size: 450%;
+    margin-bottom: 20px;
+    color: rgb(24, 119, 242);
+    /* font-size: 200%; */
+}
+
+#p
+{
+    margin-top: 20px;
+    font-size: 150%;
+    /* font-weight: bold;   */
+}
